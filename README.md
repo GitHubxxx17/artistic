@@ -10,12 +10,12 @@ Made with ❤️ by [Shaif Arfan](http://instagram.com/shaifarfan08/)
 
 ---
 
-## Project Description
+项目描述
 
-Artistic is a landing page for a photography studio. This is a well-designed and `responsive` landing page with `dark mode` feature. The main purpose of this project is to show how to create a landing page with `dark mode` feature using `ReactJs`.
-We will be using React Context API to toggle `dark mode` feature. Hope you enjoy it!.
+Artistic是一个摄影工作室的落地页。这是一个设计精美且响应式的落地页，具有暗黑模式功能。该项目的主要目的是展示如何使用ReactJs创建带有暗黑模式功能的落地页。
+我们将使用React Context API来切换暗黑模式功能。希望你喜欢！
 
-## What we are going to learn/use
+我们将学习/使用的内容
 
 - [ReactJs](https://reactjs.org/)
 - [Styled Components](https://styled-components.com/)
@@ -23,62 +23,41 @@ We will be using React Context API to toggle `dark mode` feature. Hope you enjoy
 - [React Hooks](https://reactjs.org/docs/hooks-intro.html)
 - [React Icons](https://www.npmjs.com/package/react-icons)
 - [React Scroll](https://www.npmjs.com/package/react-scroll)
-- More . . .
+- 更多...
 
-## Requirements
+要求
 
-- Basic ReactJs knowledge
-- Basic HTML, CSS knowledge
+- 基本的ReactJs知识
+- 基本的HTML，CSS知识
 
-## Starter files
+入门指南
 
-You can find all the starter files in `starter-files` branch. You can to go to the `starter-files` branch and `download zip` the the starter files or You can clone the project and git checkout to `starter-files` branch.
+推荐的入门方式是通过遵循[YouTube教程][youtubelink]。你将找到所有的逐步指南。或者你可以根据下面的指南自己启动项目。
 
-## Getting Started
-
-The recommended way to get started with the project is Follow the [YouTube tutorial][youtubelink]. You will find all the step-by-step guides. Or you Can start the project on your own by following the guide below.
-
-After getting the starter files, you need to go the file directory and run
+在获得初始文件后，你需要进入文件目录并运行
 
 ```shell
 npm install
 ```
 
-and after that start the dev server.
+然后启动开发服务器。
 
 ```shell
 npm start
 ```
 
-## Tools Used
+使用的工具
 
-1. Images: [Unsplash](https://unsplash.com/)
-1. UI Design: [Figma](https://www.figma.com/)
-1. Code Editor: [VS Code](https://code.visualstudio.com/)
+1. 图片：[Unsplash](https://unsplash.com/)
+1. UI设计：[Figma](https://www.figma.com/)
+1. 代码编辑器：[VS Code](https://code.visualstudio.com/)
 
-## Similar Projects
+类似的项目
 
-Here are some Similar projects that you might be interested.
+- [Ayan's Portfolio - React JS项目](https://github.com/ShaifArfan/AYANs-portfolio)
+- [Shaif's Cuisine - HTML，CSS项目](https://github.com/ShaifArfan/shaif-s-cuisine)
+- [Amy's Portfolio - HTML，CSS项目](https://github.com/ShaifArfan/AMYs-Portfolio)
 
-- [Ayan's Portfolio - React JS Project](https://github.com/ShaifArfan/AYANs-portfolio)
-- [Shaif's Cuisine - HTML, CSS project](https://github.com/ShaifArfan/shaif-s-cuisine)
-- [Amy's Portfolio - HTML, CSS Project](https://github.com/ShaifArfan/AMYs-Portfolio)
-
----
-
-## FAQ
-
-### Q: How can i get started?
-
-You can get started by following the YouTube tutorial of this project. Here is the full tutorial video link: [coming soon].
-
-### Q: What i need to start the project?
-
-Just open your favorite code editor and follow along with the `YouTube Tutorial`[coming soon].
-
-### Q: Who the project is for?
-
-The project is for the people who wanna get more skilled in `ReactJs`.
 
 ---
 
