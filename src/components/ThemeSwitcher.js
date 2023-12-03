@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { FiSun, FiMoon } from 'react-icons/fi';
 import styled from 'styled-components';
+import ThemeContext from '../contexts/ThemeContext';
+import themeList from '../data/themeList';
 
 const ThemeSwitcherStyles = styled.div`
   label {
@@ -54,9 +56,16 @@ const ThemeSwitcherStyles = styled.div`
 `;
 
 function ThemeSwitcher() {
+  const { theme, toggleTheme } = useContext(ThemeContext);
+
   return (
     <ThemeSwitcherStyles>
-      <input type="checkbox" id="switcher" />
+      <input
+        type="checkbox"
+        id="switcher"
+        onChange={toggleTheme}
+        checked={theme === themeList.dark}
+      />
       {/* eslint-disable-next-line jsx-a11y/label-has-associated-control */}
       <label htmlFor="switcher">
         <div className="icon">

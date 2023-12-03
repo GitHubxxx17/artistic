@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
-// import themeList from '../data/themeList';
+import themeList from '../data/themeList';
 
 // Typography
 import '@fontsource/poppins';
@@ -28,7 +28,8 @@ html{
   font-size: 10px;
 }
 body{
-
+ background-color: ${({ theme: { theme } }) =>
+   theme === themeList.light ? 'var(--lightBlue_1)' : 'var(--darkBlue_3)'};
   font-family: 'Poppins', sans-serif;
 }
 *, *:before, *:after {
@@ -55,5 +56,3 @@ img, svg{
 `;
 
 export default GlobalStyles;
-//  background-color: ${({ theme: { theme } }) =>
-//     theme === themeList.light ? 'var(--lightBlue_1)' : 'var(--darkBlue_3)'};
